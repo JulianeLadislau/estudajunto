@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-img src="/assets/logotipo.jpeg"></ion-img>
+  </ion-toolbar>  
+</ion-header>
+  <ion-content>
+  <ion-card>
+    <ion-item>
+      <ion-label position="floating">Responder Perguntas:</ion-label>
+    </ion-item>
+
+  
+    <ion-list>
+      <ion-item>
+        <ion-label>Tema</ion-label>
+        <ion-select>
+          <ion-select-option value="matematica">Matemática</ion-select-option>
+          <ion-select-option value="portugues">Português</ion-select-option>
+          <ion-select-option value="historia">História</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+  </ion-card>  
+
+  <ion-card-content style="display: flex; justify-content: center;">
+    <ion-button routerLink="/tema" color="primary" style="color: white;">Confirmar</ion-button>
+    <ion-button routerLink="/home" color="primary" expand="block">Voltar para a Início</ion-button>
+  </ion-card-content>
+  </ion-content>
+
+<ion-footer>
+  <ion-toolbar color="medium">
+    <p>
+      Suporte: estudajunto&#64;gmail.com
+    </p>
+  </ion-toolbar>
+</ion-footer>

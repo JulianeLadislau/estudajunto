@@ -1,0 +1,7 @@
+{
+  "name": "estudajunto",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
